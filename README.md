@@ -1,6 +1,6 @@
 # Rancher-on-AWS-with-Terraform
 Launch Rancher on AWS with Terraform and enabled ingress with nginx and ELB
-Reference：https://github.com/rancher/quickstart
+- Reference：https://github.com/rancher/quickstart
 
 ## Amazon AWS
 
