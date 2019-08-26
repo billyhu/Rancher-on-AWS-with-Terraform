@@ -55,11 +55,6 @@ To remove the VM's that have been deployed run `terraform destroy --force`
 - terraform apply -auto-approve rancher.plan
 - terraform output -json > output.json
 
-### Jq
-- sudo yum install epel-release -y
-- sudo yum install jq -y
-- jq --version
-
 ### Install Rancher CLI
 - wget -O rancher-cli.tar.gz $(curl -s https://api.github.com/repos/rancher/cli/releases/latest | grep browser_download_url | grep 'linux-amd64' | head -n 1 | cut -d '"' -f 4)
 - sudo tar -xzvf rancher-cli.tar.gz -C /usr/local/bin --strip-components=2
